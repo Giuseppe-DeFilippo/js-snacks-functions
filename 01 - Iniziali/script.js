@@ -5,18 +5,15 @@ let names2 = []; //VARIABILE CREATA
 
 // Dichiara la funzione qui.
 function ar(names){
-    //console.log(names[0][0]);
     let names2 = [];    
     for(let i=0; i<names.length; i++){
         names2.push(names[i][0]) ;
-
-        //console.log(names[i][0]);
     }      
       return names2;         
-    }
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-names2 =ar(names);
+names2 = ar(names);
 console.log(names2);   
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
